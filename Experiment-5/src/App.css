@@ -1,0 +1,67 @@
+/* Centers the card on the page */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #5858c9;
+  font-family: Arial, sans-serif;
+}
+
+/* Styles for the white container card */
+.counter-card {
+  background-color: rgb(225, 84, 180);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 350px;
+}
+
+.counter-card h2 {
+  margin-top: 0;
+  color: #000;
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+/* Styles for the large number */
+.count-display {
+  font-size: 4rem;
+  margin: 20px 0;
+  color: #4039a1;
+}
+
+/* Layout for Increment and Decrement buttons */
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+/* Layout for Reset button to sit below */
+.reset-row {
+  display: flex;
+  justify-content: center;
+}
+
+/* General Button Styling */
+button {
+  background-color: #82c00e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0b5ed7;
+}
+
+button:active {
+  transform: scale(0.98);
+}
